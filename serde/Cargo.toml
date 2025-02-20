@@ -22,6 +22,7 @@ serde_derive = { version = "1", path = "../serde_derive" }
 
 [lib]
 doc-scrape-examples = false
+crate-type = ["rlib", "dylib"]
 
 [package.metadata.playground]
 features = ["derive", "rc"]
