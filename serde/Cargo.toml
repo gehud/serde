@@ -14,6 +14,9 @@ readme = "crates-io.md"
 repository = "https://github.com/serde-rs/serde"
 rust-version = "1.56"
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [dependencies]
 serde_core = { version = "=1.0.225", path = "../serde_core", default-features = false, features = ["result"] }
 serde_derive = { version = "1", optional = true, path = "../serde_derive" }

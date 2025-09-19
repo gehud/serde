@@ -13,6 +13,9 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/serde-rs/serde"
 rust-version = "1.56"
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [dev-dependencies]
 serde = { version = "1", path = "../serde" }
 serde_derive = { version = "1", path = "../serde_derive" }

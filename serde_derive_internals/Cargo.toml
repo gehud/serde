@@ -14,6 +14,7 @@ rust-version = "1.61"
 
 [lib]
 path = "lib.rs"
+crate-type = ["lib", "dylib"]
 
 [dependencies]
 proc-macro2 = { workspace = true }
