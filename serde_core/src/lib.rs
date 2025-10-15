@@ -36,8 +36,6 @@
 
 // Serde types in rustdoc of other crates get linked to here.
 #![doc(html_root_url = "https://docs.rs/serde_core/1.0.228")]
-// Support using Serde without the standard library!
-#![cfg_attr(not(feature = "std"), no_std)]
 // Show which crate feature enables conditionally compiled APIs in documentation.
 #![cfg_attr(docsrs, feature(doc_cfg, rustdoc_internals))]
 #![cfg_attr(docsrs, allow(internal_features))]
